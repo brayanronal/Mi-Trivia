@@ -115,11 +115,11 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
   else:
     puntaje += 15
     print(RED+"Muy bien", nombre, "!","El Amazonas es el río más largo del planeta con 7.062 km². "+RESET)
-  
+  print(RED+nombre,"llevas", puntaje, "puntos"+RESET)
   time.sleep(3) # Espera 3 segundos antes de continuar.
   
  # Pregunta 4
-  print(MAGENTA+"¿Cuál es el continente más extenso del planeta?"+RESET)
+  print(MAGENTA+"4) ¿Cuál es el continente más extenso del planeta?"+RESET)
   print(CYAN+"a) Asia"+RESET)
   print(CYAN+"b) America"+RESET)
   print(CYAN+"c) Europa"+RESET)
