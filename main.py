@@ -47,7 +47,7 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
   # Almacenamos la respuesta del usuario en la variable "respuesta_1"
   respuesta_1 = input(RED+"\nTu respuesta: "+RESET)
   while respuesta_1 not in ("a", "b", "c", "d"):
-    respuesta_1 = input(YELLOW+"Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: "+RESET)
+    respuesta_1 = input("Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: ")
   
     # Ahora, verificamos su respuesta para mandar un mensaje de acierto o de error
   if respuesta_1 == "c":
